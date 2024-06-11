@@ -93,7 +93,7 @@ public class UI {
 	
 	private static void printPiece(ChessPiece piece, boolean background) {
 		if (background) {
-			System.out.print(ANSI_CYAN_BACKGROUND);
+			System.out.print(ANSI_BLUE_BACKGROUND);
 		}
 		if (piece == null) {
             System.out.print("-" + ANSI_RESET);
@@ -103,7 +103,7 @@ public class UI {
                 System.out.print(ANSI_GREEN + piece + ANSI_RESET);
             }
             else {
-                System.out.print(ANSI_RED + piece + ANSI_RESET);
+                System.out.print(ANSI_YELLOW + piece + ANSI_RESET);
             }
         }
         System.out.print(" ");
